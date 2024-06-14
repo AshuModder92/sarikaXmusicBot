@@ -80,18 +80,18 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://telegra.ph/file/3940b02a94e7ca41033a0.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/214f53702f788c668e294.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/3940b02a94e7ca41033a0.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-STATS_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-STREAM_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/3940b02a94e7ca41033a0.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/3940b02a94e7ca41033a0.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/3940b02a94e7ca41033a0.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/3940b02a94e7ca41033a0.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/3940b02a94e7ca41033a0.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/3940b02a94e7ca41033a0.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/3940b02a94e7ca41033a0.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/3940b02a94e7ca41033a0.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/3940b02a94e7ca41033a0.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/3940b02a94e7ca41033a0.jpg"
 
 
 def time_to_seconds(time):
