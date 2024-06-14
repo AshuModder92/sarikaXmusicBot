@@ -45,6 +45,17 @@ async def helper_private(
         )
 
 
+@app.on_message(filters.command(["help"]) & filters.private & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("donate_callback") & ~BANNED_USERS)
+async def helper_private(
+    client: app, update: Union[types.Message, types.CallbackQuery]
+):
+    await update.reply_photo(
+        photo="https://telegra.ph/file/306e078163c1a38f6dab3.jpg",
+        caption="UPI ID: `sarikabot@axl`"
+    )
+
+
 @app.on_message(filters.command(["help"]) & filters.group & ~BANNED_USERS)
 @LanguageStart
 async def help_com_group(client, message: Message, _):
