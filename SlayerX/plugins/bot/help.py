@@ -52,6 +52,7 @@ async def helper_private(
 ):
     is_callback = isinstance(update, types.CallbackQuery)
     if is_callback:
+        # Handle image callback
         try:
             await update.answer()
         except:
@@ -59,9 +60,14 @@ async def helper_private(
         chat_id = update.message.chat.id
         language = await get_lang(chat_id)
         _ = get_string(language)
-        keyboard = help_pannel(_, True)
+        # Replace with your desired image URL
+        image_url = "https://telegra.ph/file/306e078163c1a38f6dab3.jpg"
         await update.edit_message_text(
-            _["help_1"].format(SUPPORT_CHAT), reply_markup=keyboard
+            _["image_message"], reply_markup=None  # Remove keyboard for image reply
+        )
+        await update.reply_photo(
+            photo=image_url,
+            caption="UPI ID: `sarikabot@axl`"
         )
     else:
         try:
