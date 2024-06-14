@@ -29,6 +29,6 @@ def private_panel(_):
             InlineKeyboardButton(text=_["S_B_5"], user_id=config.OWNER_ID),
             InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),
         ],
-        [InlineKeyboardButton(text=f"Donate", url=f"https://appurl.io/TLQubUjSSe")]
+        [InlineKeyboardButton(text=f"Donate", callback_data=f"donate_callback")]
     ]
     return buttons
