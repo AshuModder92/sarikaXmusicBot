@@ -56,7 +56,7 @@ async def helper_private(
     await app.send_photo(
         chat_id=update.message.chat.id,
         photo="https://telegra.ph/file/306e078163c1a38f6dab3.jpg",
-        caption="UPI ID: `sarikabot@axl`",
+        caption="<b>UPI ID:</b> <code>sarikabot@axl</code>",
         reply_markup=None
     )
 
