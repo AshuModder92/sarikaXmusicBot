@@ -53,12 +53,11 @@ async def helper_private(
         await update.answer()
     except:
         pass
-     await update.send_photo(
-            photo="https://telegra.ph/file/306e078163c1a38f6dab3.jpg",
-            caption="UPI ID: `sarikabot@axl`",
-            reply_markup=None,
-        )
-
+    await update.send_photo(
+        photo="https://telegra.ph/file/306e078163c1a38f6dab3.jpg",
+        caption="UPI ID: `sarikabot@axl`",
+        reply_markup=None
+    )
 
 
 @app.on_message(filters.command(["help"]) & filters.group & ~BANNED_USERS)
